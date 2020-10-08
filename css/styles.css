@@ -25,7 +25,7 @@ header.masthead {
   padding-top: 6rem;
   padding-bottom: 3rem;
   text-align: center;
-  background-color: #eadfc9;
+  background-color: rgba(73, 69, 69, 0.075);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -34,7 +34,7 @@ header.masthead {
   font-weight: 450;
   font-size: 1.5rem;
   line-height: 1.2;
-  color: #dc7646;
+  color: #141313;
 }
 .masthead-full-name {
   font-family: 'Anton', sans-serif;
@@ -42,7 +42,7 @@ header.masthead {
   font-size: 2.75rem;
 }
 .last-name-highlight {
-  color: #f3a14b;
+  color: #141313;
 }
 @media (max-width: 576px) {
   .masthead-full-name {
@@ -53,7 +53,7 @@ header.masthead {
 }
 
 .bg-primary {
-  background-color: #eadfc9 !important;
+  background-color: #f5f2ed !important;
 }
 
 .img-profile {
@@ -94,7 +94,7 @@ header.masthead {
 }
 
 .text-primary {
-  color: #f3a14b !important;
+  color: #f3a14b;!important;
 }
 
 .text-dark {
@@ -120,8 +120,9 @@ header.masthead {
   justify-content: center;
   height: 4rem;
   width: 4rem;
-  background-color: #6c757d;
-  color: #f8f9fa;
+  background-color: #000000;
+  color: #f3a14b;
+  color:;
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
@@ -131,7 +132,7 @@ header.masthead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #dc7646;
+  background-color: #fdfdfd;
 }
 
 .dev-icons {
@@ -141,7 +142,7 @@ header.masthead {
 .footer {
   text-align: center;
   font-size: 0.9rem;
-  background-color: #eadfc9;
+  background-color: #fdfdfd;
 }
 
 /* CV navbar styling */
@@ -628,5 +629,13 @@ header.masthead {
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
+  }
+
+  img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+  height: 200;
   }
 }
